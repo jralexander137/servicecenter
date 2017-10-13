@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolKit_Cheese"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Toolkit_Cheese" Height="450" Width="556.373">
+    <Grid Margin="0,0,0,-63">
+        <Label x:Name="hostname" Content="Hostname:" HorizontalAlignment="Left" Margin="124,21,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="queryBtn" Content="Query" HorizontalAlignment="Left" Margin="318,24,0,0" VerticalAlignment="Top" Width="75" Click="queryBtn_Click"/>
+        <TextBox x:Name="hostnameTextBox" HorizontalAlignment="Left" Height="20" Margin="200,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <Label x:Name="upTime" Content="Up-Time:" HorizontalAlignment="Left" Margin="44,80,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="ipAddress" Content="IP Address:" HorizontalAlignment="Left" Margin="44,111,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="logonServer" Content="Logon Server:" HorizontalAlignment="Left" Margin="44,142,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="ieVersion" Content="I.E. Version:" HorizontalAlignment="Left" Margin="44,173,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="I_E_SvcVersion" Content="I.E. SvcVersion" HorizontalAlignment="Left" Margin="44,204,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="label5" Content="Subnet:" HorizontalAlignment="Left" Margin="44,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.646,-0.106" FontWeight="Bold"/>
+        <Label x:Name="Gatewaylabel" Content="Gateway:" HorizontalAlignment="Left" Margin="44,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.264,-0.21" FontWeight="Bold"/>
+        <Label x:Name="manufacturerLabel" Content="Manufacturer:" HorizontalAlignment="Left" Margin="44,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.506,0.284" FontWeight="Bold"/>
+        <Label x:Name="osVersionLabel" Content="OS Version:" HorizontalAlignment="Left" Margin="45,359,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="upTimeText" HorizontalAlignment="Left" Margin="111,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ipAddressText" HorizontalAlignment="Left" Margin="122,116,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="logonServerText" HorizontalAlignment="Left" Margin="138,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.214,0.148"/>
+        <TextBlock x:Name="ieVersionText" HorizontalAlignment="Left" Margin="124,178,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ieSvcVersionText" HorizontalAlignment="Left" Margin="133,209,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label x:Name="installDateLabel" Content="OS Install Date:" HorizontalAlignment="Left" Margin="44,328,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="installDateText" HorizontalAlignment="Left" Margin="145,333,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="osVersionText" HorizontalAlignment="Left" Margin="124,364,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label x:Name="architectureLabel" Content="OS Architecture:" HorizontalAlignment="Left" Margin="318,328,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="architectureText" HorizontalAlignment="Left" Margin="425,333,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="2.061,0.375"/>
+        <Label x:Name="modelLabel" Content="Model Number:" HorizontalAlignment="Left" Margin="318,297,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="modelText" HorizontalAlignment="Left" Margin="423,302,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="manufacturerText" HorizontalAlignment="Left" Margin="140,302,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
