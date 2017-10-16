@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolKit_Cheese"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Toolkit_Cheese" Height="820" Width="576.696"
+        ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+
+    <ScrollViewer>
+        <Grid Margin="0,0,0,-6" Height="775" VerticalAlignment="Top">
+            <Label x:Name="hostname" Content="Hostname:" HorizontalAlignment="Left" Margin="124,21,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Button x:Name="queryBtn" Content="Query" HorizontalAlignment="Left" Margin="318,24,0,0" VerticalAlignment="Top" Width="75" Click="queryBtn_Click"/>
+            <TextBox x:Name="hostnameTextBox" HorizontalAlignment="Left" Height="20" Margin="200,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+            <Label x:Name="upTime" Content="Up-Time:" HorizontalAlignment="Left" Margin="44,80,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="ipAddress" Content="IP Address:" HorizontalAlignment="Left" Margin="44,111,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="logonServer" Content="Logon Server:" HorizontalAlignment="Left" Margin="44,142,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="ieVersion" Content="I.E. Version:" HorizontalAlignment="Left" Margin="44,173,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="I_E_SvcVersion" Content="I.E. SvcVersion" HorizontalAlignment="Left" Margin="44,204,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="label5" Content="Subnet:" HorizontalAlignment="Left" Margin="44,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.646,-0.106" FontWeight="Bold"/>
+            <Label x:Name="Gatewaylabel" Content="Gateway:" HorizontalAlignment="Left" Margin="44,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.264,-0.21" FontWeight="Bold"/>
+            <Label x:Name="manufacturerLabel" Content="Manufacturer:" HorizontalAlignment="Left" Margin="44,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.506,0.284" FontWeight="Bold"/>
+            <Label x:Name="osVersionLabel" Content="OS Version:" HorizontalAlignment="Left" Margin="44,380,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="upTimeText" HorizontalAlignment="Left" Margin="111,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="ipAddressText" HorizontalAlignment="Left" Margin="122,116,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="logonServerText" HorizontalAlignment="Left" Margin="138,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.214,0.148"/>
+            <TextBlock x:Name="ieVersionText" HorizontalAlignment="Left" Margin="124,178,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="ieSvcVersionText" HorizontalAlignment="Left" Margin="133,209,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <Label x:Name="installDateLabel" Content="OS Install Date:" HorizontalAlignment="Left" Margin="44,323,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="installDateText" HorizontalAlignment="Left" Margin="145,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="osVersionText" HorizontalAlignment="Left" Margin="123,385,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <Label x:Name="architectureLabel" Content="OS Architecture:" HorizontalAlignment="Left" Margin="318,354,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="architectureText" HorizontalAlignment="Left" Margin="425,359,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="2.061,0.375"/>
+            <Label x:Name="modelLabel" Content="Model Number:" HorizontalAlignment="Left" Margin="318,323,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="modelText" HorizontalAlignment="Left" Margin="423,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="manufacturerText" HorizontalAlignment="Left" Margin="140,302,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <Label x:Name="loggedUserLabel" Content="Logged in User:" HorizontalAlignment="Left" Margin="318,80,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="freeDiskLabel" Content="Free HDD Space:" HorizontalAlignment="Left" Margin="318,111,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="sizeLabel" Content="HDD Size:" HorizontalAlignment="Left" Margin="318,142,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="serialNumberLabel" Content="Serial Number:" HorizontalAlignment="Left" Margin="318,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.368,0.077" FontWeight="Bold"/>
+            <TextBlock x:Name="userText" HorizontalAlignment="Left" Margin="422,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="freeSpaceHDDText" HorizontalAlignment="Left" Margin="426,116,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.02,0.188"/>
+            <TextBlock x:Name="sizeHDDText" HorizontalAlignment="Left" Margin="389,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.265,-0.062"/>
+            <TextBlock x:Name="serialNumberText" HorizontalAlignment="Left" Margin="418,209,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.837,-0.438"/>
+            <Label x:Name="DNSlabel" Content="DNS Server(s):" HorizontalAlignment="Left" Margin="318,235,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="MAClabel" Content="MAC Address:" HorizontalAlignment="Left" Margin="318,266,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label x:Name="DHCPlabel" Content="DHCP Enabled:" HorizontalAlignment="Left" Margin="318,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.239,-0.221" FontWeight="Bold"/>
+            <TextBlock x:Name="subnetText" HorizontalAlignment="Left" Margin="102,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="gatewayText" HorizontalAlignment="Left" Margin="111,271,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="dnsText" HorizontalAlignment="Left" Margin="415,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="TextBlock"/>
+            <TextBlock x:Name="macText" HorizontalAlignment="Left" Margin="412,271,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock x:Name="dhcpText" HorizontalAlignment="Left" Margin="417,302,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.218,-0.267"/>
+            <Label x:Name="ramLabel" Content="RAM:" HorizontalAlignment="Left" Margin="318,173,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="ramText" HorizontalAlignment="Left" Margin="364,178,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <ListView x:Name="programListView" HorizontalAlignment="Left" Height="328" Margin="44,428,0,0" VerticalAlignment="Top" Width="468">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Installed Programs" Width="300" DisplayMemberBinding="{Binding ProgramName}"/>
+                        <GridViewColumn Header="Version" Width="150" DisplayMemberBinding="{Binding DisplayVersion}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button x:Name="clearBtn" Content="Clear" HorizontalAlignment="Left" Margin="400,24,0,0" VerticalAlignment="Top" Width="75" Click="clearBtn_Click"/>
+            <Button x:Name="getProgramBtn" Content="List Programs" HorizontalAlignment="Left" Margin="426,403,0,0" VerticalAlignment="Top" Width="86" Click="getProgramBtn_Click"/>
+
+        </Grid>
+    </ScrollViewer>
 </Window>
